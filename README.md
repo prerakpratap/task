@@ -30,14 +30,14 @@ curl request:-
 curl --location 'http://localhost:4000/api/signup' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-"email":"prerakpratap@gmail.com",
+"email":"xyz@gmail.com",
 "password":"hello@123",
-"username":"prerak"
+"username":"xyz"
 }'
 
 curl --location 'http://localhost:4000/api/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-"email":"prerakpratap@gmail.com",
+"email":"xyz@gmail.com",
 "password":"hello@123"
 }'
